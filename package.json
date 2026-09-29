@@ -1,0 +1,9 @@
+{
+  "name": "ronaldo-tribute",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "python3 -m http.server 4173",
+    "test": "python3 -c \"from pathlib import Path; assert Path('index.html').exists() and Path('style.css').exists()\""
+  }
+}
